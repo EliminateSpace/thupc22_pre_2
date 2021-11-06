@@ -18,9 +18,17 @@
 
 {{ self.input_file() }}
 
+第一行两个整数 $n,m$。
+
+接下来 $n$ 行，每行三个整数 $c_i,d_i,e_i$。
+
+接下来 $m$ 行，每行两个正整数 $a_i,b_i$ 。
+
 {{ s('output format') }}
 
 {{ self.output_file() }}
+
+一行一个整数表示答案。
 
 {{ s('sample', ) }}
 
@@ -28,4 +36,4 @@
 
 {{ s('subtasks') }}
 
-保证 $1\le n \le 5000$，$1\le a_i,b_i,c_i,d_i,e_i\le 10^9$。
+保证 $1\le n \le 5000$，$0\le m \le 10000$，$1\le a_i,b_i,c_i,d_i,e_i\le 10^9$。
