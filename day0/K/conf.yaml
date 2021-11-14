@@ -15,7 +15,9 @@ pre: []
 samples: []
 time limit: 1.0
 title:
-  zh-cn: 人工智障
+  zh-cn: THUPC
 type: program
-users: {}
+users:
+  zyb:
+    std: {expected: == 100, path: zyb/k.cpp}
 version: 2
