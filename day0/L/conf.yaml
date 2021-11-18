@@ -17,7 +17,7 @@ samples:
   - cases: [1]
 time limit: 1.0
 title:
-  zh-cn: 数正方体
+  zh-cn: L. 数正方体
 type: program
 users:
   esc:
