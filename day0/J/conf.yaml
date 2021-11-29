@@ -20,5 +20,7 @@ time limit: 1.0
 title:
   zh-cn: J. 分组作业
 type: program
-users: {}
+users:
+  esc:
+    std: {expected: == 100, path: esc/teamwork.cpp}
 version: 2
