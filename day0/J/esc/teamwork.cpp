@@ -31,16 +31,16 @@ int R(int l,int r)
 struct edge
 {
 	int to;
-	int cap;
+	long long cap;
 	int next;
 }e[4444444];
 int pe=444444;
-void insert(int a,int to,int cap)
+void insert(int a,int to,long long cap)
 {
 	e[pe]=(edge){to,cap,e[a].next};
 	e[a].next=pe++;
 }
-void addedge(int a,int to,int cap)
+void addedge(int a,int to,long long cap)
 {
 	insert(a,to,cap);
 	insert(to,a,0);
@@ -101,6 +101,7 @@ int main()
 		int c=io::F(),d=io::F(),e=io::F();
 		addedge(S,indiv[i],d);
 		addedge(indiv[i],team[i+1>>1],c);
+		addedge(team[i+1>>1],indiv[i],0x3f3f3f3f3f3f3f3fll);
 		addedge(team[i+1>>1],T,c);
 		addedge(indiv[i],indiv[ptn[i]],e);
 	}
