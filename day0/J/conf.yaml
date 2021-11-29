@@ -23,4 +23,7 @@ type: program
 users:
   esc:
     std: {expected: == 100, path: esc/teamwork.cpp}
+  zyb:
+    std: {expected: == 100, path: zyb/j.cpp}
+    bf: {expected: == 0, path: zyb/bf.cpp}
 version: 2
