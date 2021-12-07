@@ -56,4 +56,6 @@
 
 {{ self.title_sample_description() }}
 
+{{ img('graph1.png', size = 1, align = 'middle', inline = False, caption='', label='fig:sample') }}
+
 这组样例中，字母“T”的水平线段和“C”的竖直线段分别是由两条线段拼成的。
