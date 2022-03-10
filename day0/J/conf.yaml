@@ -15,7 +15,7 @@ name: teamwork
 partial score: false
 pre: []
 samples: 
-  - cases: [8]
+  - cases: [1]
 time limit: 1.0
 title:
   zh-cn: J. 分组作业
