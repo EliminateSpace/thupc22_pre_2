@@ -3,10 +3,10 @@ folder: day
 name: day0
 start time: 1926-08-17 00:00:00+0800
 subdir:
+- H
 - I
 - J
 - K
-- L
 title:
   zh-cn: 试机
 version: 2
